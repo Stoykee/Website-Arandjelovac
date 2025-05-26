@@ -1,0 +1,196 @@
+@media screen and (max-width: 413px) {
+    
+    header{
+        width: 413px;
+        height: 920px;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)),
+         url('./img/banner.png');
+        
+        font-family: sans-serif;
+        display: flex;
+        background-position: right 30px center;
+    }
+
+    
+.logo{
+    height: 130px;
+    width: 130px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    
+}
+
+/* Osnovni stilovi za meni i logo */
+.menu {
+    display: inline-block; /* Postavljanje menija da bude prikazan sa logoom u istom redu */
+    margin-top: 150px;
+    margin-right: 400px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.header {
+    flex-direction: column; /* Menjanje smjera flex kontejnera na kolonu za prikaz na manjim ekranima */
+    align-items: center; /* Centriranje elemenata unutar flex kontejnera */
+    margin-left: 0;
+}
+
+.menu {
+    display: block; /* Postavljanje menija da bude blok element kako bi se prikazao ispod logoa */
+    text-align: center; /* Centriranje teksta unutar menija */
+    margin-top: 100px; /* Dodavanje razmaka iznad menija */
+    
+}
+ul {
+    list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  
+  }
+
+    nav{
+        margin-left: 10px;
+        width: 100%;
+        height: 100px !important;
+        color: white;
+        font-size: 10px;
+    }
+
+    .menu a{
+        text-transform: uppercase;
+        color: white;
+        padding: 10px 20px;
+        font-size: 12px !important;
+    }
+
+    .okvir-teksta{
+    
+        position: absolute;
+        border-radius: 0.33rem;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+       width: 300px;
+        font-size: 10px;
+        height: 140px;
+    
+    }
+
+    .h-txt{
+        max-width: 650px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    .h-txt span{
+        letter-spacing: 5px;
+    }
+    .h-txt h1{
+        font-size: 3.5em;
+    }
+    .h-txt a{
+        text-decoration: none;
+        background-color: indianred;
+        color: white;
+        padding: 10px 20px;
+        letter-spacing: 5px;
+        transition: 0.4s    ;
+    }
+    .h-txt a:hover{
+        background: transparent;
+        border:1px solid indianred
+    }
+
+
+
+    footer {
+        width: 100%;
+        height: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        padding: 1px;
+        background-color: rgb(48, 58, 66);
+        color: white;
+        font-size: 11px;
+    }
+
+    footer p{
+        font-size: 11px !important;
+    }
+  }
+
+  @media screen and (max-width: 1366px){
+
+
+
+    nav{
+        margin-left: 10px;
+        width: 100%;
+        height: 100px !important;
+        color: white;
+        font-size: 14px;
+    }
+
+
+    .okvir-teksta{
+    
+        position: absolute;
+        border-radius: 0.33rem;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+       width: 300px;
+        font-size: 10px;
+        height: 140px;
+    
+    }
+
+    .h-txt{
+        max-width: 650px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    .h-txt span{
+        letter-spacing: 5px;
+    }
+    .h-txt h1{
+        font-size: 3.5em;
+    }
+    .h-txt a{
+        text-decoration: none;
+        background-color: indianred;
+        color: white;
+        padding: 10px 20px;
+        letter-spacing: 5px;
+        transition: 0.4s    ;
+    }
+    .h-txt a:hover{
+        background: transparent;
+        border:1px solid indianred
+    }
+
+    footer {
+        width: 100%;
+        height: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        padding: 1px;
+        background-color: rgb(48, 58, 66);
+        color: white;
+        font-size: 16px;
+    }
+
+  }

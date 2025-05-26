@@ -1,0 +1,22 @@
+ul.navbar-nav>li>a{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+ul.navbar-nav>li.nav-item.dropdown>.dropdown-menu>li>a{
+    letter-spacing: 0.15rem;
+}
+section{
+    margin-top: 2rem;
+}
+.list-unstyled li{
+    padding: 1.5rem;
+    border-bottom: 1px solid #d33a3a;
+}
+.list-unstyled li a{
+    text-decoration: none;
+    color: black;
+}
+.list-unstyled li a:hover{
+    color: #323232;
+}

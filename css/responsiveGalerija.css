@@ -1,0 +1,75 @@
+@media screen and (max-width: 413px) {
+
+    nav{
+        margin-left: 10px;
+        width: 100%;
+        height: 100px !important;
+        color: white;
+        font-size: 10px;
+    }
+
+    .menu a{
+        text-transform: uppercase;
+        color: white;
+        padding: 10px 20px;
+        font-size: 12px !important;
+    }
+
+    .slides{
+        margin-top: 200px;
+        margin-left: 0px;
+        width: 331px;
+        height: 250px;
+        display: block;
+        
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slide img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav label{
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        display: none;
+        opacity: 0;
+        z-index: 9;
+        transition: opacity 0.2s;
+        color: #fff;
+        font-size: 110pt;
+        text-align: center;
+        line-height: 180px;
+        background-color: rgba(255, 255, 255, .3);
+        text-shadow: 0 0 15px rgb(119, 119, 119);
+    }
+
+    .nav-dots .nav-dot{
+        margin-top: -5px;
+        position: relative;
+        justify-content: center;
+        width: 14px;
+        height: 14px;
+        margin: 0 4px 0 4px;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    footer {
+        width: 100%;
+        height: 10px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        padding: 1px;
+        background-color: rgb(48, 58, 66);
+        color: white;
+        font-size: 11px;
+    }
+  }
+
+ 
